@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineNuvem</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #141414;
+            color: #f2f2f2;
+            text-align: center;
+        }
+        header {
+            background-color: #b81d24;
+            padding: 60px 20px;
+        }
+        header h1 { font-size: 48px; }
+        header h2 { font-weight: normal; margin-top: 10px; }
+        .descricao {
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 0 20px;
+            font-size: 20px;
+            line-height: 1.5;
+            color: #cccccc;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 0 20px 40px;
+        }
+        .card {
+            background-color: #232323;
+            border-top: 4px solid #e50914;
+            border-radius: 8px;
+            padding: 25px;
+            width: 260px;
+        }
+        .card h3 { color: #e50914; margin-bottom: 10px; }
+        footer {
+            background-color: #000000;
+            padding: 20px;
+            color: #999999;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CineNuvem</h1>
+        <h2>Seu cinema, direto da nuvem</h2>
+    </header>
+
+    <p class="descricao">
+        O CineNuvem é um serviço fictício de indicação de filmes.
+        Aqui você descobre o que assistir, de acordo com o seu humor.
+    </p>
+
+    <section class="cards">
+        <div class="card">
+            <h3>Lançamentos</h3>
+            <p>Os filmes mais novos que acabaram de chegar aos cinemas e ao streaming.</p>
+        </div>
+        <div class="card">
+            <h3>Clássicos</h3>
+            <p>Obras que marcaram gerações e continuam valendo a pena assistir.</p>
+        </div>
+        <div class="card">
+            <h3>Indicações</h3>
+            <p>Sugestões personalizadas por gênero: ação, comédia, drama e terror.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por SEU NOME | ETEC Rodrigues de Abreu</p>
+    </footer>
+</body>
+</html>
